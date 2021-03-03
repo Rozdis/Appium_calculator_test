@@ -1,12 +1,17 @@
 package actions;
 
 public class Actions {
-    private static CalculatorActions calculatorActions;
 
-    public static CalculatorActions calculatorActions(){
-        if(calculatorActions == null){
-            calculatorActions = new CalculatorActions();
+    private static ResultChoosePageActions resultChoosePageActions;
+
+
+
+
+    public static ResultChoosePageActions resultChoosePageActions() {
+        if (resultChoosePageActions == null) {
+            resultChoosePageActions = new ResultChoosePageActions();
         }
-        return calculatorActions;
+        return resultChoosePageActions;
     }
 }
+

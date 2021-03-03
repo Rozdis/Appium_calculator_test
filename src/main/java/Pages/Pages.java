@@ -1,20 +1,23 @@
 package Pages;
 
 public class Pages {
-    private static CalculateBar calculateBar;
-    private static ResultBar resultBar;
 
-    public static CalculateBar calculateBar(){
-        if (calculateBar == null){
-            calculateBar = new CalculateBar();
-        }
-        return calculateBar;
+    private static SideBar sideBar;
+    private static ResultChooseGenrePage resultChooseGenrePage;
+
+
+
+
+    public static SideBar sideBar(){
+        if(sideBar == null)
+            sideBar = new SideBar();
+        return sideBar;
     }
 
-    public static ResultBar resultBar(){
-        if (resultBar == null){
-            resultBar = new ResultBar();
-        }
-        return resultBar;
+    public static ResultChooseGenrePage resultChooseGenrePage(){
+        if(resultChooseGenrePage == null)
+            resultChooseGenrePage = new ResultChooseGenrePage();
+        return resultChooseGenrePage;
     }
+
 }
