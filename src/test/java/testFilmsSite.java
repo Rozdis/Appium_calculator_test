@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 import java.net.URL;
 import io.appium.java_client.windows.WindowsDriver;
 
-public class calculatorTest {
+public class testFilmsSite {
     private static final Integer expectedNumberFromAddition = 6;
 
 
